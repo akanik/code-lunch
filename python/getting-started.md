@@ -11,7 +11,7 @@ A virtual environment allows you to install different versions of things on your
 The virtual environment system I use is called Virtual Environment Wrapper, or virtualenvwrapper. 
 
 
-**Resources**
+### Resources
 
 If you're working with MAC, [here's how you install it](http://virtualenvwrapper.readthedocs.io/en/latest/install.html).
 
@@ -21,7 +21,7 @@ If you're working with a PC, [here's how you install it](http://timmyreilly.azur
 ## Python
 The first language we're going to tackle is python. Python is probably one of the most human-readable languages out there, and it's a favorite in the journalism community. There are a lot of great python-based tools out there that can help you process (sort, filter, refine, clean, etc.) data.
 
-**What I use to work with data**
+### What I use to work with data
 
 - [agate](http://agate.readthedocs.io/en/1.6.0/about.html): used mostly in scripts
 - [csvkit](https://csvkit.readthedocs.io/en/1.0.2/): used mostly on the command line
