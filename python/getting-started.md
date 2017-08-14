@@ -27,7 +27,7 @@ The first language we're going to tackle is python. Python is probably one of th
 - [csvkit](https://csvkit.readthedocs.io/en/1.0.2/): used mostly on the command line
 - [django](https://docs.djangoproject.com/en/1.11/): used when you've got a relational database. We probably won't be getting into this for a long while, but it's good to know it's something that exists.
 
-**Resources**
+### Resources
 
 Until you get your computer up-and-running with your virtual environment, you can start learning python in the cloud with this handy, [Code Acadamy walk through](https://www.codecademy.com/learn/learn-python). If you create an account with Code Academy, you can save your progress and come pack to the tutorial where you left off. I recommend this.
 
