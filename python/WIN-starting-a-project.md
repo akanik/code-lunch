@@ -2,7 +2,7 @@
 
 Here are the steps you'll want to follow when starting a new project that will require python.
 
-**Create a new virtual environment**
+## 1. Create a new virtual environment
 
 - Open up the command prompt and `cd` into the directory where your new project is going to live.
 ![command prompt cd process](img/cp-cd.png)
@@ -14,6 +14,22 @@ Here are the steps you'll want to follow when starting a new project that will r
 -- `[environment-name]` is the name of our environment. This can be anything you want, but I like to keep it similar if not the same as my project name
 -- `-a` is a "parameter" of the `mkvirtualenv` function. It tells the virtual environment program which directory we want our virtual environment to sync to. `./` is the path of the directory that `-a` is talking about. So together, these two elements mean "sync my new virtual environment to the directory I'm currently standing in." If we wanted to sync our new virtual environment to a different directory, we could either supply a ABSOLUTE PATH or a RELATIVE PATH instead of the `./`.
 ![command prompt mkdir process](img/cp-virtualenv.png)
+
+## 2. Create a python doc
+
+With your virtual environment running, in your project directory, type `copy NUL analyze.py`.
+
+Congrats! You just created your first python doc!
+
+## 3. Create a data directory
+
+In the same project directory, type `mkdir data`.
+
+Hooray! Now we have a place to put our data!
+
+------
+
+## Path distinctions
 
 There are two ways to describe where files you're trying to reference live on your computer:
 - You can specify the ABSOLUTE PATH of the file, which tells the computer to start from the root of your computer and work from there. You can find the ABSOLUTE PATH by entering this command into the command prompt `cd`.

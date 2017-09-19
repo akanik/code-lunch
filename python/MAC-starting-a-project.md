@@ -16,9 +16,15 @@ Here are the steps you'll want to follow when starting a new project that will r
 
 ## 2. Create a python doc
 
+With your virtual environment running, in your project directory, type `touch analyze.py`.
 
+Congrats! You just created your first python doc!
 
 ## 3. Create a data directory
+
+In the same project directory, type `mkdir data`.
+
+Hooray! Now we have a place to put our data!
 
 ----------
 
