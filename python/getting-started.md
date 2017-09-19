@@ -34,4 +34,10 @@ Until you get your computer up-and-running with your virtual environment, you ca
 There is also a [Code Academy tutorial on the command line](https://www.codecademy.com/learn/learn-the-command-line). If you're unfamiliar the command line, I suggest also doing that one.
 
 ## Command Line vs Scripting
-There are two major ways to write and execute code on your computer. Both involve an application on your computer called The Terminal.
+There are two major ways to write and execute code on your computer. Both involve an application on your computer called **The Terminal** if you're on MAC, **Command Prompt** if you're on Windows.
+
+**Mac terminal window**
+![terminal on mac](./img/terminal-mac.jpg)
+
+**Windows command prompt**
+![command prompt on windows](./img/command-prompt-windows.jpg)
