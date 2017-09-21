@@ -10,9 +10,9 @@ Here are the steps you'll want to follow when starting a new project that will r
 ![command prompt mkdir process](img/cp-mkdir.png)
 - `cd` into your newly created project directory
 - Create your virtual environment and link it to your project directory with `mkvirtualenv [environment-name] -a ./`
--- `mkvirtualenv` is how we start the environment creation process
--- `[environment-name]` is the name of our environment. This can be anything you want, but I like to keep it similar if not the same as my project name
--- `-a` is a "parameter" of the `mkvirtualenv` function. It tells the virtual environment program which directory we want our virtual environment to sync to. `./` is the path of the directory that `-a` is talking about. So together, these two elements mean "sync my new virtual environment to the directory I'm currently standing in." If we wanted to sync our new virtual environment to a different directory, we could either supply a ABSOLUTE PATH or a RELATIVE PATH instead of the `./`.
+    - `mkvirtualenv` is how we start the environment creation process
+    - `[environment-name]` is the name of our environment. This can be anything you want, but I like to keep it similar if not the same as my project name
+    - `-a` is a "parameter" of the `mkvirtualenv` function. It tells the virtual environment program which directory we want our virtual environment to sync to. `./` is the path of the directory that `-a` is talking about. So together, these two elements mean "sync my new virtual environment to the directory I'm currently standing in." If we wanted to sync our new virtual environment to a different directory, we could either supply a ABSOLUTE PATH or a RELATIVE PATH instead of the `./`.
 ![command prompt mkdir process](img/cp-virtualenv.png)
 
 ## 2. Create a python doc
