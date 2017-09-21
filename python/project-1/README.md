@@ -15,6 +15,7 @@ Here's how python code written to analyze data is usually structured:
 
 There are some things you'll want to understand about python code... and code in general
 
+- *No spaces. No special characters:* There are no spaces allowed in filenames or variable names or functions. If you put spaces in your file names now, you will stop after you start writing code. I promise you.
 - *Variables:* Variables are a way of assigning data to short codes. For example, when I call data with agate, I'm creating a variable that I can reference to do further things with the data. A general rule of thumb with variables is to keep their names short, sweet and to the point.
 ```
 my_data = agate.Table.from_csv('/path/to/data/file')
@@ -27,7 +28,8 @@ def get_shit_done():
     print my_data
 ```
 A general rule of thumb for functions is to name them with the action that they are set up to perform. For example, `get_shit_done()`.
-
+- *Running python code:* To run python code, you simply call the file in your terminal or command prompt. 
+`python analyze.py`
 
 
 
